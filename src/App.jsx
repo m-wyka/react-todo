@@ -9,6 +9,7 @@ function App() {
   const [todos, setTodos] = useState([
     { id: 1, name: "Zapłacić rachunki", done: false },
     { id: 2, name: "Wyrzucić śmieci", done: true },
+    { id: 3, name: "Pobiegać", done: true },
   ]);
 
   function addItem(newTodoName) {
